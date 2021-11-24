@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Flask Bucket List App</title>
+
+   
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/css/signup.css" rel="stylesheet">
+    <script src="../static/js/jquery-1.11.2.js"></script>
+    <script src="../static/js/signUp.js"></script>
+   
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="/">Home</a></li>
+            <li role="presentation"><a href="/list">List usuarios</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Cadastra novo usuario</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Mereço 10</h1>
+        <form class="form-signin" action="signUp" method="post" >
+        <label for="inputName" class="sr-only">Nome</label>
+        <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Nome" required autofocus>
+        <br>
+        <label for="sexo" class="sr-only">Sexo</label>
+        <input type="name" name="sexo" id="sexo" class="form-control" placeholder="Sexo" required autofocus>
+        <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="button">Cadastrar</button>
+      </form>
+      </div>
+
+
+    </div>
+  </body>
+</html>
+
